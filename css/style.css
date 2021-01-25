@@ -35,7 +35,6 @@ header{
 
 div, aside{
   background: lightblue;
-  border: 1px solid black;
 }
 
 .title{
@@ -66,5 +65,5 @@ div, aside{
 footer{
   height: 25px;
   background: green;
-  margin-top: 5px;
+  margin-top: 512px;
 }
