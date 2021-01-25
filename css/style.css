@@ -39,32 +39,32 @@ div, aside{
 }
 
 .title{
-  height: 10%;
+  height: 20px;
+  margin-bottom: 5px;
 }
 
 .left, .center, .right{
   float: left;
-  height: calc(100% - 10%)
+  height: calc(100% - 30px);
 }
 
 .left, .right{
   width: 20%;
-
 }
 
 .center{
-  width: 60%;
-
+  width: calc(60% - 10px);
+  margin: 0 5px;
 }
 
-.article:after{
+/* .article:after{
   content:'';
   display: table;
   clear: both;
-}
+} */
 
 footer{
   height: 25px;
   background: green;
-
+  margin-top: 5px;
 }
