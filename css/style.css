@@ -27,7 +27,7 @@ header{
 }
 
 .article{
-  height: 200px;
+  /* height: 200px; */
   background: blue;
   margin-top: 10px;
 }
@@ -44,26 +44,29 @@ div, aside{
 
 .left, .center, .right{
   float: left;
-  height: calc(100% - 30px);
+  height: 100px;
 }
 
 .left, .right{
   width: 20%;
+  background: red;
 }
 
 .center{
   width: calc(60% - 10px);
   margin: 0 5px;
+  background: red;
+
 }
 
-/* .article:after{
+.article:after{
   content:'';
   display: table;
   clear: both;
-} */
+}
 
 footer{
   height: 25px;
   background: green;
-  margin-top: 512px;
+  margin-top: 5px;
 }
