@@ -5,12 +5,9 @@
 }
       /* regole di debug */
 
-body{
-  height: 100vh;
-}
-
 main{
   width: 70%;
+  height: 100vh;
   margin: auto;
 }
 
@@ -44,7 +41,7 @@ div, aside{
 
 .left, .center, .right{
   float: left;
-  height: 100px;
+  height: 200px;
 }
 
 .left, .right{
